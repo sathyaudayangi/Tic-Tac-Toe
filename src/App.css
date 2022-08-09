@@ -1,0 +1,25 @@
+.square {
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(101, 101, 101);
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.3em;
+}
+
+.board {
+    display: flex;
+    width: 156px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+li {
+    background-color: rgb(214, 217, 221);
+    width: fit-content;
+    border: 1px solid gray;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.16);
+    margin: 5px 0;
+    padding: 0 5px;
+    cursor: pointer;
+}
